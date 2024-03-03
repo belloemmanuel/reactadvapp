@@ -8,7 +8,7 @@ const UseStateObject = () => {
     hobby:' singing'});
 
   const handleClick =()=>{
-    setPerson({...person, name:'susan', number: 5208917463}) 
+    setPerson({...person, name:'susan'}) 
     console.log(person)
   }
 
